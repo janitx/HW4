@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<filtersProduct>
+    <filters>
+        <filter>
+            <id>1</id>
+            <product>ноутбук</product>
+            <brand>HP</brand>
+            <price>400000</price>
+        </filter>
+        <filter>
+            <id>2</id>
+            <product>Планшеты</product>
+            <brand>Microsoft</brand>
+            <price>400000</price>
+        </filter>
+        <filter>
+            <id>3</id>
+            <product>Холодильники</product>
+            <brand>Bosch</brand>
+            <price>400000</price>
+        </filter>
+        <filter>
+            <id>4</id>
+            <product>Электрочайники</product>
+            <brand>Braun</brand>
+            <price>400000</price>
+        </filter>
+        <filter>
+            <id>5</id>
+            <product>Кондиционеры</product>
+            <brand>Bosch</brand>
+            <price>400000</price>
+        </filter>
+    </filters>
+</filtersProduct>
