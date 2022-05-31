@@ -12,7 +12,7 @@ import utils.XmlToModelReader;
 public class CheckSumInCartTest extends BaseTest {
 
 
-    @DataProvider(name = "filters-file-xml")
+    @DataProvider(name = "filters-file-xml", parallel = true)
     public Object[][] getData() {
 
         FilterProductModel model = XmlToModelReader.read(new PropertiesReader().getPathToFiltersFileXml());

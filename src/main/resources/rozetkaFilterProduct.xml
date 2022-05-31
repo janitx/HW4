@@ -3,7 +3,7 @@
     <filters>
         <filter>
             <id>1</id>
-            <product>ноутбук</product>
+            <product>Ноутбуки</product>
             <brand>HP</brand>
             <price>400000</price>
         </filter>

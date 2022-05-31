@@ -44,7 +44,7 @@ public class SearchPage extends BasePage {
 
     public void clickOnBuyButton() {
         List<WebElement> productsBuyButton = findElementsByXpath("//button[contains(@class,'buy-button')]", Duration.ofSeconds(60));
-        productsBuyButton.get(0).click();
+        productsBuyButton.get(5).click();
     }
 
     public void clickOnCartButton() {

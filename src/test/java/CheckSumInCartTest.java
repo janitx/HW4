@@ -26,13 +26,17 @@ public class CheckSumInCartTest extends BaseTest {
     @Test(dataProvider = "filters-file-xml")
     public void checkIfSumInCartIsLess(int id, String product, String brand, int maxPrice) {
 
-        getHomePage().inputSearchQuery(product);
-        getHomePage().clickOnFindButton();
+        var homepage = getHomePage();// inputSearchQuery(product);
+        homepage.inputSearchQuery(product);
+        homepage.clickOnFindButton();
 
-        getSearchPage().selectDropDownFilter();
-        getSearchPage().clickOnBrand(brand);
-        getSearchPage().clickOnBuyButton();
-        getSearchPage().clickOnCartButton();
+
+        var searchPage = getSearchPage();
+
+        searchPage.selectDropDownFilter();
+        searchPage.clickOnBrand(brand);
+        searchPage.clickOnBuyButton();
+        searchPage.clickOnCartButton();
 
         int cartPrice = Integer.parseInt(getCartPage().getTextOfPriceProductInCart());
 
